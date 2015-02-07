@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets" template="WEB-INF/template/default.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <ui:define name="title">Welcome to My MiniLibrary Application</ui:define>
+    <ui:define name="content">                                
+        <div class="jumbotron">
+            <h2>Welcome to My MiniLibrary Application</h2>
+            <p class="lead">A sample project to demonstrate JAX-RS Web Service client. Based on 
+                <a href="http://www.developer.com/java/creating-restful-web-services-with-jax-rs.html" target="_blank">
+
+                    Creating RESTful Web Services with JAX-RS 
+                </a>Tutorial
+            </p>
+            <p>
+                <h:link  class="btn btn-lg btn-success" role="button" value="Register a new book" outcome="register.xhtml" />
+            </p>
+        </div>
+
+    </ui:define>
+</ui:composition>
